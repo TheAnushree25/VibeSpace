@@ -1,2 +1,2 @@
-web: gunicorn your_app_name.wsgi --log-file -
-worker: celery -A your_app_name worker -l info
+web: gunicorn studybud.wsgi
+worker: celery -A studybud worker -l info
